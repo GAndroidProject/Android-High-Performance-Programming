@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chapter 3 - Building Layouts</string>
+    <string name="book_title">Android High Performance Programming</string>
+    <string name="title_layout" >Layouts</string>
+    <string name="title_grid_layout" >GridLayout</string>
+    <string name="title_overdraw" >Overdraw</string>
+    <string name="title_view_holder_pattern" >View Holder Pattern</string>
+    <string name="title_view_stub" >ViewStub</string>
+    <string name="action_settings">Settings</string>
+    <string name="sampleTitle">Title</string>
+    <string name="sampleDescription">Description</string>
+    <string name="marshmallow">Along with new features and capabilities, Android 6.0 (API level 23) includes a variety of system changes and API behavior changes. This document highlights some of the key changes that you should understand and account for in your apps.
+
+If you have previously published an app for Android, be aware that these changes in the platform affect your app.
+
+    This release introduces a new permissions model, where users can now directly manage app permissions at runtime. This model gives users improved visibility and control over permissions, while streamlining the installation and auto-update processes for app developers. Users can grant or revoke permissions individually for installed apps.
+
+On your apps that target Android 6.0 (API level 23) or higher, make sure to check for and request permissions at runtime. To determine if your app has been granted a permission, call the new checkSelfPermission() method. To request a permission, call the new requestPermissions() method. Even if your app is not targeting Android 6.0 (API level 23), you should test your app under the new permissions model.
+
+For details on supporting the new permissions model in your app, see Working with System Permissions. For tips on how to assess the impact on your app, see Permissions Best Practices.</string>
+    <string name="title_activity_view_holder_pattern">ViewHolderPatternActivity</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

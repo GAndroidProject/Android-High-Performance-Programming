@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/layouts"
+            android:title="@string/title_layout" />
+        <item
+            android:id="@+id/viewholderpattern"
+            android:title="@string/title_view_holder_pattern" />
+        <item
+            android:id="@+id/overdraw"
+            android:title="@string/title_overdraw" />
+        <item
+            android:id="@+id/grid_layout"
+            android:title="@string/title_grid_layout" />
+        <item
+            android:id="@+id/viewstub"
+            android:title="@string/title_view_stub" />
+    </group>
+
+</menu>

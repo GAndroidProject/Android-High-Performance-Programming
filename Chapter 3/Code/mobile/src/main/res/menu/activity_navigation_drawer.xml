@@ -17,6 +17,12 @@
         <item
             android:id="@+id/viewstub"
             android:title="@string/title_view_stub" />
+
+        <item
+            android:id="@+id/merge"
+            android:title="@string/title_merge" />
+
+        MergeActivity
     </group>
 
 </menu>

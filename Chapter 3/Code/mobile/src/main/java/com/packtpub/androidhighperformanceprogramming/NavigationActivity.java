@@ -8,7 +8,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
@@ -64,7 +63,10 @@ public abstract class NavigationActivity extends AppCompatActivity
             intent.setClass(this, GridLayoutActivity.class);
         } else if (id == R.id.viewstub) {
             intent.setClass(this, ViewStubActivity.class);
+        }else if (id == R.id.merge){
+            intent.setClass(this, MergeActivity.class);
         }
+
         intent.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

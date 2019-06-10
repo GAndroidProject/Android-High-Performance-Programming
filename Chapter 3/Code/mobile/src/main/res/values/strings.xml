@@ -6,6 +6,7 @@
     <string name="title_overdraw" >Overdraw</string>
     <string name="title_view_holder_pattern" >View Holder Pattern</string>
     <string name="title_view_stub" >ViewStub</string>
+    <string name="title_merge" >Merge</string>
     <string name="action_settings">Settings</string>
     <string name="sampleTitle">Title</string>
     <string name="sampleDescription">Description</string>
